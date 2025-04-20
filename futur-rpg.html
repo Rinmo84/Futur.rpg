@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Prototype RPG Futuriste - Armes et Compétences</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #111; }
+    canvas { display: block; margin: auto; background: #222; border: 2px solid #0ff; }
+    #ui, #mainMenu {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      font-family: sans-serif;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 8px;
+      max-width: 300px;
+    }
+    #ui { display: none; }
+    .skill-tree { margin-top: 10px; }
+    .skill-branch { margin-bottom: 8px; }
+    button, select { margin: 2px 0; width: 100%; }
+    #skillMenuToggle {
+      margin-top: 10px;
+      background-color: #0ff;
+      color: #000;
+      font-weight: bold;
+    }
+    #skillMenu { display: none; margin-top: 10px; }
+    .weapon-stats { margin-top: 10px; font-size: 0.9em; }
+    .rarity-common { color: #aaa; }
+    .rarity-rare { color: #00f; }
+    .rarity-epic { color: #a0f; }
+    .rarity-legendary { color: #ff0; }
+  </style>
+</head>
+<body>
+<!-- Content from canvas continued... -->
+...
